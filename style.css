@@ -1,40 +1,4 @@
 
-/* body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-header {
-    background-color: #007acc;
-    color: white;
-    padding: 2rem;
-    text-align: center;
-}
-
-section {
-    padding: 2rem;
-}
-
-footer {
-    background-color: #e6f1b5;
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #555;
-}
-
-a {
-    color: #007acc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-} */
  /* Сброс отступов и базовая стилизация */
 /* ============== Base Reset & Variables ============== */
 :root {
@@ -162,13 +126,14 @@ footer {
   font-size: 0.9rem;
   color: var(--text-color);
   padding: 2rem;
-  /* border-top: 1px solid #ccc; */
   background-color: var(--footer-bg);
   border-radius: 12px;
   margin-top: 2rem;
 }
-footer:hover, li:hover{
-    box-shadow: 10px 5px 5px rgb(146, 138, 138);
+
+footer:hover, 
+li:hover{
+    box-shadow: 5px 5px 5px  rgb(146, 138, 138);
 }
 
 
