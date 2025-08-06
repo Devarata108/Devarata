@@ -130,10 +130,13 @@ footer {
   border-radius: 12px;
   margin-top: 2rem;
 }
+footer  a{
+    font-size: 20px;
+}
 
 footer:hover, 
 li:hover{
-    box-shadow: 5px 5px 5px  rgb(146, 138, 138);
+    box-shadow: 5px 5px 5px rgb(146, 138, 138);
 }
 
 
